@@ -18,6 +18,6 @@ tasks.koverVerify {
 
 The expected behavior would be:
 * `gradlew proj1:check` run only that subproject tests: `proj1:test`
-* `gradlew koverReport` run all tests in all projects: `proj1:test, proj2:test`
+* `gradlew proj1:koverReport` run all tests in all projects: `proj1:test, proj2:test`
 
 
